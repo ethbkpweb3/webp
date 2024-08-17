@@ -72288,43 +72288,7 @@
                       c ? " Working..." : t,
                     ],
                   }),
-              (0, Gb.jsxs)(kk, {
-                fullScreen: !1,
-                TransitionComponent: JS,
-                open: p.onopen,
-                onClose: p.onclose,
-                scroll: "paper",
-                "aria-labelledby": "Me",
-                children: [
-                  (0, Gb.jsxs)("div", {
-                    className: "flex flex-row align-items-center px20 pt10",
-                    children: [
-                      (0, Gb.jsx)(vS.A, {}),
-                      (0, Gb.jsx)("h2", {
-                        className: "pt20 pb0 pl10",
-                        children: "Login to continue",
-                      }),
-                    ],
-                  }),
-                  (0, Gb.jsx)(Pk, {
-                    children: (0, Gb.jsx)("section", {
-                      children: (0, Gb.jsx)(YS, {
-                        return_call: r,
-                        return_url: n,
-                        do_redirect: o,
-                      }),
-                    }),
-                  }),
-                  (0, Gb.jsx)(YC, {}),
-                  (0, Gb.jsx)(Dk, {
-                    children: (0, Gb.jsx)(Mj, {
-                      onClick: p.onclose,
-                      color: "warning",
-                      children: "Close",
-                    }),
-                  }),
-                ],
-              }),
+              (0, Gb.jsxs),
             ],
           });
         },
