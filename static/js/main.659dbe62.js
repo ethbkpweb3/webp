@@ -77514,8 +77514,26 @@
                   }),
                 ],
               }),
-    
-          
+            !j &&
+              (0, Gb.jsx)("div", {
+                style: { display: "flex", justifyContent: "center" },
+                children: (0, Gb.jsx)(XS, {
+                  button_text: "BUY TOKEN",
+                  button_class: "buy_token_button",
+                  mode: "custom",
+                  return_call: () => {
+                    P({ ..._, onopen: !0, onclose: T });
+                  },
+                  return_url: "/purchase",
+                  do_redirect: !0,
+                }),
+              }),
+            (null === D || void 0 === D ? void 0 : D.onopen) &&
+              (0, Gb.jsx)(f_, { data: D }),
+            (null === _ || void 0 === _ ? void 0 : _.onopen) &&
+              (0, Gb.jsx)(tE, { data: _ }),
+            (null === O || void 0 === O ? void 0 : O.open) &&
+              (0, Gb.jsx)(wE, { data: O }),
           ],
         });
       }
