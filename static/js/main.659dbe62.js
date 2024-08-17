@@ -77504,7 +77504,7 @@
                               }),
                               void console.log(D)
                             ),
-                            disabled: f <= 0,
+                        
                             className: "buy_token_button",
                             children: "CONTINUE",
                           }),
