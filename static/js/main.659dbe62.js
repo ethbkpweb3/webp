@@ -72288,7 +72288,43 @@
                       c ? " Working..." : t,
                     ],
                   }),
-              (0, Gb.jsxs),
+              (0, Gb.jsxs)(kk, {
+                fullScreen: !1,
+                TransitionComponent: JS,
+                open: p.onopen,
+                onClose: p.onclose,
+                scroll: "paper",
+                "aria-labelledby": "Me",
+                children: [
+                  (0, Gb.jsxs)("div", {
+                    className: "flex flex-row align-items-center px20 pt10",
+                    children: [
+                      (0, Gb.jsx)(vS.A, {}),
+                      (0, Gb.jsx)("h2", {
+                        className: "pt20 pb0 pl10",
+                        children: "Login to continue",
+                      }),
+                    ],
+                  }),
+                  (0, Gb.jsx)(Pk, {
+                    children: (0, Gb.jsx)("section", {
+                      children: (0, Gb.jsx)(YS, {
+                        return_call: r,
+                        return_url: n,
+                        do_redirect: o,
+                      }),
+                    }),
+                  }),
+                  (0, Gb.jsx)(YC, {}),
+                  (0, Gb.jsx)(Dk, {
+                    children: (0, Gb.jsx)(Mj, {
+                      onClick: p.onclose,
+                      color: "warning",
+                      children: "Close",
+                    }),
+                  }),
+                ],
+              }),
             ],
           });
         },
@@ -77468,7 +77504,7 @@
                               }),
                               void console.log(D)
                             ),
-                        
+                            disabled: f <= 0,
                             className: "buy_token_button",
                             children: "CONTINUE",
                           }),
@@ -77478,8 +77514,7 @@
                   }),
                 ],
               }),
-            !j &&
-              (0, Gb.jsx),
+    
             (null === D || void 0 === D ? void 0 : D.onopen) &&
               (0, Gb.jsx)(f_, { data: D }),
             (null === _ || void 0 === _ ? void 0 : _.onopen) &&
