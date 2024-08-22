@@ -77466,7 +77466,7 @@
               currAmount: f,
               currErrorMessage: g,
             }),
-            j &&
+            !j &&
               (0, Gb.jsxs)(Gb.Fragment, {
                 children: [
                   (0, Gb.jsx)(CE, {
@@ -77514,7 +77514,7 @@
                   }),
                 ],
               }),
-            !j &&
+            j &&
               (0, Gb.jsx)("div", {
                 style: { display: "flex", justifyContent: "center" },
                 children: (0, Gb.jsx)(XS, {
