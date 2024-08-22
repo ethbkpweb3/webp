@@ -68610,7 +68610,7 @@
                     result: Y,
                     currAmount: f,
                     currErrorMessage: g
-                }), j && (0,
+                }), !j && (0,
                 Gb.jsxs)(Gb.Fragment, {
                     children: [(0,
                     Gb.jsx)(CE, {
@@ -68660,7 +68660,7 @@
                             })
                         })
                     })]
-                }), !j && (0,
+                }), j && (0,
                 Gb.jsx)("div", {
                     style: {
                         display: "flex",
