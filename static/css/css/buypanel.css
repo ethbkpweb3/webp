@@ -1,6 +1,7 @@
 .buy-cover {
     background-color: initial;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, .3), 0 15px 12px rgba(0, 0, 0, .22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, .3),
+        0 15px 12px rgba(0, 0, 0, .22);
     border-radius: 15px;
     min-width: 350px;
     max-width: 550px;
@@ -45,6 +46,7 @@
 .panel-content {
     padding: 2px 20px 6px 20px;
 }
+
 
 .time-container {
     display: flex;
@@ -109,6 +111,8 @@
     border-block-start: 0 #2e2f45;
 }
 
+
+
 .divider-with-text span {
     display: inline-block;
     padding: 0 1em;
@@ -152,6 +156,7 @@
     flex-direction: row;
     margin-bottom: 6px;
     justify-content: space-between;
+
 }
 
 .purchase-btns:last-of-type {}
@@ -213,7 +218,9 @@
 .aff-togger {
     background-color: transparent;
     outline: 0;
+
     border-radius: 5px;
+
     display: inline-flex;
     align-items: center;
     font-weight: 700;
@@ -272,6 +279,7 @@
 
 .success-span,
 .error-span {
+
     padding: 3px 5px;
     border-radius: 4px;
 }
@@ -295,6 +303,7 @@
 .btn-col {
     flex: 1 1;
     padding: 0;
+
 }
 
 .btn-col:first-of-type {
@@ -306,6 +315,7 @@
 }
 
 .custom-currency-button {
+
     border: 1px solid #2871FE;
     border-radius: 8px;
     background-color: transparent;
@@ -348,12 +358,15 @@
 .custom-currency-button.active,
 .custom-currency-button:hover {
     background: linear-gradient(90deg, #2871FE 35%, #3F26D9 85%);
+
     color: #fff;
 }
 
 .custom-currency-button:hover {
     box-shadow: 0 0 5px #2871FE, 0 0 10px #3F26D9;
 }
+
+
 
 .icon-box {
     height: 25px;
@@ -364,6 +377,7 @@
     transform: translateY(-50%);
     display: flex;
 }
+
 
 .vstack {
     flex: 1 1 auto;
@@ -435,6 +449,8 @@ button.buy_token_button:disabled {
     color: #888
 }
 
+
+
 .prog-desc {
     display: flex;
     flex-direction: row;
@@ -450,6 +466,7 @@ button.buy_token_button:disabled {
     font-size: 0.91rem;
     text-transform: uppercase;
 }
+
 
 .prog-signal {
     display: flex;
@@ -478,6 +495,7 @@ button.buy_token_button:disabled {
     justify-content: center;
 }
 
+
 .btn-div {
     position: relative;
     z-index: 0 !important;
@@ -504,7 +522,7 @@ button.buy_token_button:disabled {
     margin: 10px 0 !important;
 }
 
-button>wui-text {
+button > wui-text {
     transition: opacity 200ms ease-in-out 0s;
     opacity: var(--local-opacity-100);
     color: var(--wui-color-inverse-100);
